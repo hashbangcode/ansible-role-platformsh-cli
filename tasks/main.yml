@@ -1,0 +1,14 @@
+---
+
+# TODO: Check PHP version
+# php -i | grep 'PHP Version'
+
+# TODO: Check for cURL support
+# php -i | grep 'cURL support'
+
+- name: Download packaged release & make executable
+  get_url:
+    url: https://github.com/platformsh/platformsh-cli/releases/download/{{ platformsh_cli_version }}/platform.phar
+    dest: "{{ platformsh_cli_install_path }}/platform"
+    mode: "{{ platformsh_cli_mode }}"
+  become: true
