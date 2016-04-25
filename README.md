@@ -24,7 +24,7 @@ The version of the Platform.sh CLI to install. This seems to always have a prece
 
 The path where the Platform.sh CLI will be installed and available to your system. This should be in your user's $PATH so that you can run commands simply with `platform` instead of the full path.
 
-    platformsh_cli_mode: 0775
+    platformsh_cli_mode: 0777
 
 The permissions to apply to the `platform` binary once installed.
 

@@ -2,5 +2,5 @@
 
 # Note the "v" prefix on the release version.
 platformsh_cli_version: v3.0.7
-platformsh_cli_mode: 0775
+platformsh_cli_mode: 0777
 platformsh_cli_install_path: /usr/local/bin
