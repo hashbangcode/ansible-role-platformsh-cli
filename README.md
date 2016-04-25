@@ -1,5 +1,7 @@
 # Ansible Role: Platform.sh CLI
 
+[![Build Status](https://travis-ci.org/hashbangcode/ansible-role-platformsh-cli.svg?branch=master)](https://travis-ci.org/hashbangcode/ansible-role-platformsh-cli)
+
 An Ansible role that installs the [Platform.sh CLI](https://github.com/platformsh/platformsh-cli).
 
 
