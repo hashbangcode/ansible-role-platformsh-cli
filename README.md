@@ -1,6 +1,6 @@
 # Ansible Role: Platform.sh CLI
 
-An Ansible role that installs the [Platform.sh CLI ](https://github.com/platformsh/platformsh-cli).
+An Ansible role that installs the [Platform.sh CLI](https://github.com/platformsh/platformsh-cli).
 
 
 ## Requirements
