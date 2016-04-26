@@ -22,7 +22,7 @@ The version of the Platform.sh CLI to install. This seems to always have a prece
 
     platformsh_cli_install_path: /usr/local/bin
 
-The path where the Platform.sh CLI will be installed and available to your system. This should be in your user's $PATH so that you can run commands simply with `platform` instead of the full path.
+The path where the Platform.sh CLI will be installed and available to your system. This should be in your user's $PATH so that you can run commands simply with `platform` instead of the full path. The Platform.sh CLI will require that this location is writable.
 
     platformsh_cli_mode: 0777
 
